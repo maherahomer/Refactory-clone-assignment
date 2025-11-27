@@ -167,3 +167,87 @@ align-items: center;
     width:100px;
     margin-top: 30px;
 }
+
+/* Main Footer Structure */
+.site-footer {
+    background-color: #680794;
+    color: white;
+    padding: 60px 0 0 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.footer-container {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Footer Columns */
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Headings */
+.footer-col h3 {
+    color: var(--white);
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Links Styling */
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col a {
+    color: var(--footer-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Contact Info Specifics */
+.contact-info li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #f7f5f5;
+    color: rgb(86, 4, 112);
+    border-radius: 50%; 
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+/* Bottom Copyright Bar */
+.footer-bottom {
+    background-color: #000;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+    font-size: 16px;
+}
