@@ -187,14 +187,27 @@ nav {
   background-color: #5f0160;
   color: rgb(255, 255, 255);
 }
+.button-partner:hover {
+  background: #ffffff;
+  color:  #5f0160;
+}
 .button-explore {
   background-color: #bdbd0c;
-  color: rgb(255, 255, 255);
+  color:#ffffff;
+}
+.button-explore:hover {
+  background: #ffffff;
+  color:  #5f0160
 }
 .button-hire {
   background-color: #ffffff;
   color: #5f0761;
 }
+.button-hire:hover {
+  background: #0f5395;
+  color: #ffffff;
+}
+
 
 /* <!-- first body content-->*/
 .first-body-content {
@@ -244,6 +257,12 @@ nav {
   width: 120px;
   margin-top: 40px;
 }
+.text-box a:hover {
+  background: #0f5395;;
+  color: #ffffff;
+  transform: translateY(-5px);
+}
+
 .image-box {
   flex: 1;
   display: flex;
@@ -318,6 +337,11 @@ nav {
   margin-top: 15px;
   margin-bottom: 50px;
 }
+.featured-courses button:hover {
+  background: #0f5395;;
+  color: #ffffff;
+  transform: translateY(-5px);
+}
 /* <!-- Second body content-->*/
 .second-body-content {
   display: flex;
@@ -371,6 +395,11 @@ nav {
   justify-content: center;
   width: 120px;
   margin-top: 40px;
+}
+.second-text-box a:hover {
+  background: #0f5395;;
+  color: #ffffff;
+  transform: translateY(-5px);
 }
 .second-image-box {
   flex: 1;
@@ -468,12 +497,16 @@ nav {
   margin-bottom: 7px;
 }
 /*---------Visit us--------*/
-.column-for-button {
+.visit-us-button {
   color: #0ab7bd;
   font-size: 20px;
   text-decoration: none;
   font-weight: 700;
   font-family: century gothic, sans-serif;
+}
+.visit-us-button:hover {
+  color: #ffffff;
+  transform: translateY(-5px);
 }
 
 /* --------- Social Media Icons------------- */
